@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Especificidade CSS</title>
+    <style>
+        
+        /* https://developer.mozilla.org/pt-BR/docs/Web/CSS/Specificity 
+        
+        Regras de especificidade(qual é processado primeiro):
+        
+        1.Regra com !important : (Não é muito recomendado ficar usando !important)
+        2.Seletores mais especificos
+        3. Ultima regra processada (empate): em caso de mesma prioridade o ultimo a ser processado tem preferencia 
+        */
+
+        p{
+            background-color: #aaa;
+        }
+
+        .observacao{/*uma classe é mais especifico que uma tag p  */
+            background-color: blue;
+            border: dashed 5px;
+            padding: 20px;
+            font-size: 40px;
+        }
+
+        p.observacao{ /*é mais especifico doque só o p ou só a classe */
+            border: solid 5px;
+            background: linear-gradient(to right,red,yellow);
+        }
+    </style>
+</head>
+
+<body>
+    <p class='observacao'>Olha essa observação!!!!</p>
+</body>
+
+</html>
