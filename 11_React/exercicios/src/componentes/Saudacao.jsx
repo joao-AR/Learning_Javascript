@@ -12,12 +12,12 @@ export default class Saudacao extends Component {
         this.setNome = this.setNome.bind(this)
     }
     setTipo(e){
-       this.setState({tipo: e.target.value})
+        this.setState({tipo: e.target.value})
     }
 
     setNome(e){
         this.setState({nome: e.target.value})
-     }
+    }
     render (){
         const {tipo,nome} = this.state
         return (
