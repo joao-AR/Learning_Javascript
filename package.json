@@ -1,0 +1,26 @@
+{
+  "name": "cruso-javascript-udemy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/joao-AR/Learning_web_with_JS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/joao-AR/Learning_web_with_JS/issues"
+  },
+  "homepage": "https://github.com/joao-AR/Learning_web_with_JS#readme",
+  "dependencies": {
+    "create-next-app": "^12.1.1",
+    "next": "^12.1.1",
+    "react": "^17.0.2",
+    "react-router": "^6.2.2"
+  }
+}
