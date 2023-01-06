@@ -1,0 +1,3 @@
+-Install node in your machine 
+-Install vscode
+-Add extension Code Runner
